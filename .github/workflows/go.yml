@@ -24,11 +24,7 @@ jobs:
           go test -v ./...
       - name: Goa
         run: |
-          make test
-          with:
-            path: src/github.com/ikawaha/httpcheckutil/goa
+          cd goa && make test
       - name: GraphQL
         run: |
-          go test ./...
-          with:
-            path: src/github.com/ikawaha/httpcheckutil/graphql/testdata/gqlgen-todos
+          cd ./graphql/testdata && go test ./...
