@@ -22,9 +22,9 @@ jobs:
       - name: Test
         run: |
           go test -v ./...
-      - name: Goa
+      - name: Goa Example Test
         run: |
           cd goa && make test
-      - name: GraphQL
+      - name: GraphQL Example Test
         run: |
-          cd ./graphql/testdata && go test ./...
+          cd ./graphql/testdata/gqlgen-todos && go test ./...
