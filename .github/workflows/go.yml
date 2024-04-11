@@ -9,6 +9,8 @@ on:
 
 jobs:
   build:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Check out code into the Go module directory
@@ -24,7 +26,13 @@ jobs:
           go test -v ./...
       - name: Goa Example Test
         run: |
-          cd goa && make test
+          cd goa && make goa_gen &&make test
+      - name: commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: goa gen
+          branch: ${{ github.head_ref }}
       - name: GraphQL Example Test
         run: |
           cd ./graphql/testdata/gqlgen-todos && go test ./...
+          
