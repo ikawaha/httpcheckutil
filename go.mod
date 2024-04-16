@@ -5,7 +5,7 @@ go 1.21.6
 require (
 	github.com/ikawaha/httpcheck v1.12.2
 	github.com/stretchr/testify v1.9.0
-	goa.design/goa/v3 v3.16.0
+	goa.design/goa/v3 v3.16.1
 )
 
 require (
