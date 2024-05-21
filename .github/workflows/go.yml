@@ -34,5 +34,5 @@ jobs:
           branch: ${{ github.head_ref }}
       - name: GraphQL Example Test
         run: |
-          cd ./graphql/testdata/gqlgen-todos && go test ./...
+          cd ./graphql/testdata/gqlgen-todos && go mod tidy && go test ./...
           
