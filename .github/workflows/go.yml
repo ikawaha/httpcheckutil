@@ -27,12 +27,11 @@ jobs:
       - name: Goa Example Test
         run: |
           cd goa && make goa_gen &&make test
+      - name: GraphQL Example Test
+        run: |
+          cd ./graphql/testdata/gqlgen-todos && go mod tidy && go test ./...
       - name: commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: goa gen
           branch: ${{ github.head_ref }}
-      - name: GraphQL Example Test
-        run: |
-          cd ./graphql/testdata/gqlgen-todos && go mod tidy && go test ./...
-          
