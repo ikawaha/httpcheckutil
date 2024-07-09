@@ -3,7 +3,7 @@ module github.com/ikawaha/httpcheckutil
 go 1.21.6
 
 require (
-	github.com/ikawaha/httpcheck v1.12.2
+	github.com/ikawaha/httpcheck v1.12.3
 	github.com/stretchr/testify v1.9.0
 	goa.design/goa/v3 v3.16.2
 )
@@ -13,8 +13,8 @@ require (
 	github.com/go-chi/chi/v5 v5.0.12 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.1 // indirect
-	github.com/itchyny/gojq v0.12.15 // indirect
-	github.com/itchyny/timefmt-go v0.1.5 // indirect
+	github.com/itchyny/gojq v0.12.16 // indirect
+	github.com/itchyny/timefmt-go v0.1.6 // indirect
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	golang.org/x/net v0.25.0 // indirect
