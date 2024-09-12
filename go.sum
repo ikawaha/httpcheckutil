@@ -21,8 +21,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
-goa.design/goa/v3 v3.18.2 h1:2t3RHgc2tTYEExEwRlnkrSsFD82rsZ5mBkv5JUBvelY=
-goa.design/goa/v3 v3.18.2/go.mod h1:jS66/I2PCh9MPwXtFY8vWb4pGQDYz3qVK3TjjvRLEUM=
+goa.design/goa/v3 v3.19.0 h1:veBy7uz0dzR7v8bVkV7Mcwd5si3gTVoxHUcXU1534aA=
+goa.design/goa/v3 v3.19.0/go.mod h1:x6hUwtv/+E/sUzoQlCkrjXiB7ZZOgrx8r8h8rHKb6tQ=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 h1:YR8cESwS4TdDjEe65xsg0ogRM/Nc3DYOhEAlW+xobZo=
 gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
