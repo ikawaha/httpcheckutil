@@ -5,7 +5,7 @@ go 1.21.6
 replace github.com/ikawaha/httpcheckutil => ../../
 
 require (
-	github.com/ikawaha/httpcheck v1.12.3
+	github.com/ikawaha/httpcheck v1.12.4
 	github.com/ikawaha/httpcheckutil v0.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.10.0
 	goa.design/goa/v3 v3.19.0
