@@ -3,7 +3,7 @@ module github.com/ikawaha/httpcheckutil
 go 1.21.6
 
 require (
-	github.com/ikawaha/httpcheck v1.12.3
+	github.com/ikawaha/httpcheck v1.12.4
 	github.com/stretchr/testify v1.10.0
 	goa.design/goa/v3 v3.19.0
 )
