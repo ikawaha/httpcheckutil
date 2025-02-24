@@ -1,6 +1,8 @@
 module github.com/ikawaha/gqlgen-todos
 
-go 1.22.0
+go 1.23.0
+
+toolchain go1.23.6
 
 replace github.com/ikawaha/httpcheckutil => ./../../..
 
