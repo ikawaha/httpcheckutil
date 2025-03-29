@@ -17,7 +17,7 @@ type (
 	decoder      = func(*http.Request) goahttp.Decoder
 	encoder      = func(context.Context, http.ResponseWriter) goahttp.Encoder
 	errorHandler = func(context.Context, http.ResponseWriter, error)
-	formatter    = func(context.Context, error) goahttp.Statuser
+	formatter    = func(context.Context, error) goahttp.Statuser //nolint:misspell
 	middleware   = func(http.Handler) http.Handler
 )
 
