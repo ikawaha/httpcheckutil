@@ -7,7 +7,7 @@ toolchain go1.23.6
 require (
 	github.com/ikawaha/httpcheck v1.12.4
 	github.com/stretchr/testify v1.10.0
-	goa.design/goa/v3 v3.20.0
+	goa.design/goa/v3 v3.20.1
 )
 
 require (
